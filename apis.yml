@@ -1,0 +1,56 @@
+aid: api-harmony
+name: API Harmony
+description: >-
+  API Harmony was an API discovery and recommendation tool from IBM Research
+  that used graph-based search, machine learning, and cognitive technologies to
+  help developers find, compare, and select compatible APIs. It was offered as a
+  cloud service on IBM Bluemix and has since been discontinued.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - API Aggregation
+  - API Discovery
+  - API Recommendation
+  - Machine Learning
+  - Graph Technology
+  - IBM
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/api-harmony/refs/heads/main/apis.yml
+created: '2026-03-26'
+modified: '2026-03-26'
+specificationVersion: '0.19'
+apis:
+  - aid: api-harmony:api-harmony-service
+    name: API Harmony Service
+    description: >-
+      API Harmony was an intelligent API matchmaking service that used graph
+      technology and machine learning to search public APIs, reveal
+      relationships between them, make recommendations, and identify gaps. It
+      anticipated what developers would need to build applications and suggested
+      optimal API combinations. The service has been discontinued.
+    humanURL: https://developer.ibm.com/api/view/apiharmony-prod:apih-product:title-API_Harmony
+    tags:
+      - API Discovery
+      - API Recommendation
+      - Graph Search
+      - Machine Learning
+      - Discontinued
+    properties:
+      - type: Documentation
+        url: https://developer.ibm.com/api/view/apiharmony-prod:apih-product:title-API_Harmony
+      - type: Website
+        url: https://apiharmony-open.mybluemix.net/public
+common:
+  - type: Website
+    url: https://developer.ibm.com/apiharmony/
+  - type: IBM API Hub
+    url: https://developer.ibm.com/api/view/apiharmony-prod:apih-product:title-API_Harmony
+  - type: IBM Cloud Docs
+    url: https://cloud.ibm.com/docs/services/APIHarmony/index.html
+  - type: Research Paper
+    url: https://research.ibm.com/publications/api-harmony-graph-based-search-and-selection-of-apis-in-the-cloud
+  - type: Linux Journal Article
+    url: https://www.linuxjournal.com/node/1338947
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
