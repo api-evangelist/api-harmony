@@ -11,9 +11,9 @@ tags:
   - API Aggregation
   - API Discovery
   - API Recommendation
-  - Machine Learning
   - Graph Technology
   - IBM
+  - Machine Learning
 url: >-
   https://raw.githubusercontent.com/api-evangelist/api-harmony/refs/heads/main/apis.yml
 created: '2026-03-26'
@@ -32,9 +32,9 @@ apis:
     tags:
       - API Discovery
       - API Recommendation
+      - Discontinued
       - Graph Search
       - Machine Learning
-      - Discontinued
     properties:
       - type: Documentation
         url: https://developer.ibm.com/api/view/apiharmony-prod:apih-product:title-API_Harmony
