@@ -17,7 +17,7 @@ tags:
 url: >-
   https://raw.githubusercontent.com/api-evangelist/api-harmony/refs/heads/main/apis.yml
 created: '2026-03-26'
-modified: '2026-03-26'
+modified: '2026-04-19'
 specificationVersion: '0.19'
 apis:
   - aid: api-harmony:api-harmony-service
@@ -43,14 +43,36 @@ apis:
 common:
   - type: Website
     url: https://developer.ibm.com/apiharmony/
-  - type: IBM API Hub
+  - type: Documentation
     url: https://developer.ibm.com/api/view/apiharmony-prod:apih-product:title-API_Harmony
-  - type: IBM Cloud Docs
-    url: https://cloud.ibm.com/docs/services/APIHarmony/index.html
-  - type: Research Paper
+  - type: Research
     url: https://research.ibm.com/publications/api-harmony-graph-based-search-and-selection-of-apis-in-the-cloud
-  - type: Linux Journal Article
+  - type: Article
     url: https://www.linuxjournal.com/node/1338947
+  - type: Features
+    data:
+      - name: API Graph Search
+        description: Graph-based search across public APIs to reveal relationships and connections between services.
+      - name: API Recommendation
+        description: Machine learning-powered recommendations for compatible APIs based on developer intent and context.
+      - name: API Composition Support
+        description: Tooling to help developers compose multiple APIs into unified applications.
+      - name: API Discovery
+        description: Unified catalog and discovery interface for cloud-hosted and public APIs.
+      - name: API Publishing
+        description: Tools for API providers to publish and promote their APIs to the ecosystem.
+      - name: Gap Identification
+        description: Identifies gaps in the API ecosystem where no existing API satisfies a developer need.
+  - type: UseCases
+    data:
+      - name: Cloud API Discovery
+        description: Help developers find the right APIs for cloud-based application development on IBM Bluemix.
+      - name: API Compatibility Analysis
+        description: Identify which APIs can be combined for a given use case without conflicts or duplication.
+      - name: API Portfolio Management
+        description: API providers could publish and promote their services to the broader developer ecosystem.
+      - name: Microservices Integration
+        description: Support microservices architectures by identifying optimal third-party API combinations.
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
