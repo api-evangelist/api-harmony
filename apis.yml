@@ -41,6 +41,10 @@ apis:
       - type: Website
         url: https://apiharmony-open.mybluemix.net/public
 common:
+  - type: VulnerabilityDisclosure
+    url: security/api-harmony-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/api-harmony-domain-security.yml
   - type: Website
     url: https://developer.ibm.com/apiharmony/
   - type: Documentation
