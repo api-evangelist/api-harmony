@@ -6,7 +6,19 @@ description: >-
   help developers find, compare, and select compatible APIs. It was offered as a
   cloud service on IBM Bluemix and has since been discontinued.
 type: Index
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: freemium
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Freemium
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/api-harmony.png
 tags:
   - API Aggregation
   - API Discovery
