@@ -25,6 +25,13 @@ tags:
   - API Recommendation
   - Graph Technology
   - IBM
+  - Machine-Learning
+tags_raw:
+  - API Aggregation
+  - API Discovery
+  - API Recommendation
+  - Graph Technology
+  - IBM
   - Machine Learning
 url: >-
   https://raw.githubusercontent.com/api-evangelist/api-harmony/refs/heads/main/apis.yml
@@ -42,6 +49,12 @@ apis:
       optimal API combinations. The service has been discontinued.
     humanURL: https://developer.ibm.com/api/view/apiharmony-prod:apih-product:title-API_Harmony
     tags:
+      - API Discovery
+      - API Recommendation
+      - Discontinued
+      - Graph Search
+      - Machine-Learning
+    tags_raw:
       - API Discovery
       - API Recommendation
       - Discontinued
