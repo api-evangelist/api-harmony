@@ -4,6 +4,17 @@ description: API Harmony was an API discovery and recommendation tool from IBM R
   machine learning, and cognitive technologies to help developers find, compare, and select compatible APIs. It
   was offered as a cloud service on IBM Bluemix and has since been discontinued.
 type: Index
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: freemium
   onboarding: unknown
