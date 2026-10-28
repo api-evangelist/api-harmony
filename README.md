@@ -1,4 +1,4 @@
-# API Harmony (api-harmony)
+# API Harmony
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,64 +66,101 @@
 
 API Harmony was an API discovery and recommendation tool from IBM Research that used graph-based search, machine learning, and cognitive technologies to help developers find, compare, and select compatible APIs. It was offered as a cloud service on IBM Bluemix and has since been discontinued.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/api-harmony/refs/heads/main/apis.yml)
+**Areas:** API Aggregation · API Discovery · API Recommendation · Graph Technology · IBM · Machine Learning
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+## API Harmony on APIs.io
 
-## Tags:
+Everything profiled for API Harmony is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/api-harmony/](https://apis.io/providers/api-harmony/)** — or go straight to one of the APIs or properties below.
 
- - API Aggregation, API Discovery, API Recommendation, Graph Technology, IBM, Machine Learning
+### APIs (1)
 
-## Timestamps
+- [API Harmony Service](https://apis.io/apis/api-harmony/api-harmony-service/) — API Harmony was an intelligent API matchmaking service that used graph technology and machine learning to search public APIs, reveal relationships between…
 
-- **Created:** 2026-03-26
-- **Modified:** 2026-04-19
+### Published properties
 
-## APIs
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-### API Harmony Service
-API Harmony was an intelligent API matchmaking service that used graph technology and machine learning to search public APIs, reveal relationships between them, make recommendations, and identify gaps. It anticipated what developers would need to build applications and suggested optimal API combinations. The service has been discontinued.
+#### Security (2)
 
-**Human URL:** [https://developer.ibm.com/api/view/apiharmony-prod:apih-product:title-API_Harmony](https://developer.ibm.com/api/view/apiharmony-prod:apih-product:title-API_Harmony)
+Authentication, trust centre, and vulnerability disclosure.
 
-#### Tags:
+- [Api Harmony Domain Security](https://apis.io/security/api-harmony/api-harmony-domain-security/)
+- [Api Harmony Vulnerability Disclosure](https://apis.io/security/api-harmony/api-harmony-vulnerability-disclosure/)
 
- - API Discovery, API Recommendation, Discontinued, Graph Search, Machine Learning
+#### Plans and pricing (1)
 
-#### Properties
+Published plans, tiers and prices.
 
-- [Documentation](https://developer.ibm.com/api/view/apiharmony-prod:apih-product:title-API_Harmony)
-- [Website](https://apiharmony-open.mybluemix.net/public)
+- [Api Harmony Plans Pricing](https://apis.io/plans/api-harmony/api-harmony-plans-pricing/)
 
-## Common Properties
+#### Rate limits (1)
+
+Published request limits.
+
+- [Api Harmony Rate Limits](https://apis.io/rate-limits/api-harmony/api-harmony-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Api Harmony Finops](https://apis.io/finops/api-harmony/api-harmony-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://developer.ibm.com/apiharmony/)
 - [Documentation](https://developer.ibm.com/api/view/apiharmony-prod:apih-product:title-API_Harmony)
-- [Research](https://research.ibm.com/publications/api-harmony-graph-based-search-and-selection-of-apis-in-the-cloud)
-- [Article](https://www.linuxjournal.com/node/1338947)
 
-## Features
+## API Evangelist rating
 
-| Name | Description |
-|------|-------------|
-| API Graph Search | Graph-based search across public APIs to reveal relationships and connections between services. |
-| API Recommendation | Machine learning-powered recommendations for compatible APIs based on developer intent and context. |
-| API Composition Support | Tooling to help developers compose multiple APIs into unified applications. |
-| API Discovery | Unified catalog and discovery interface for cloud-hosted and public APIs. |
-| API Publishing | Tools for API providers to publish and promote their APIs to the ecosystem. |
-| Gap Identification | Identifies gaps in the API ecosystem where no existing API satisfies a developer need. |
+**Kin Score 7.7** — minimal · rubric 0.24.0 · scored 2026-10-17
 
-## Use Cases
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 7.9 |
 
-| Name | Description |
-|------|-------------|
-| Cloud API Discovery | Help developers find the right APIs for cloud-based application development on IBM Bluemix. |
-| API Compatibility Analysis | Identify which APIs can be combined for a given use case without conflicts or duplication. |
-| API Portfolio Management | API providers could publish and promote their services to the broader developer ecosystem. |
-| Microservices Integration | Support microservices architectures by identifying optimal third-party API combinations. |
+**Agent readiness 0.6** — human-only
 
-## Maintainers
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-**FN:** Kin Lane
+**Regulatory alignment 10.9** — Horizontal (data, software, accessibility, platform)
 
-**Email:** kin@apievangelist.com
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/api-harmony/](https://apis.io/providers/api-harmony/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for API Harmony: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/api-harmony/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
